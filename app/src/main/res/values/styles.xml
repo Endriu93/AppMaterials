@@ -1,0 +1,11 @@
+<resources>
+    <style name="ColorButton">
+        <item name="android:background">@drawable/button_colored_material</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Inverse</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:background">@drawable/button_material</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button</item>
+    </style>
+</resources>

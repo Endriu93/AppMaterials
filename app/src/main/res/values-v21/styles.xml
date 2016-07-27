@@ -1,0 +1,6 @@
+<resources>
+
+    <style name="ColorButton" parent="Widget.AppCompat.Button.Colored"></style>
+
+    <style name="Button" parent="Widget.AppCompat.Button"></style>
+</resources>

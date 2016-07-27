@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/main_coordinator_layout"
+        android:title="CoordinatorLayout"
+        android:icon="@drawable/ic_drawer"
+        app:showAsAction="withText|ifRoom" />
+    <item
+        android:id="@+id/option2"
+        android:title="option2"
+        android:icon="@drawable/ic_drawer"
+        app:showAsAction="withText|ifRoom" />
+</menu>
