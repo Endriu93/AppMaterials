@@ -12,7 +12,8 @@ import android.view.MenuItem;
 import android.support.v4.widget.DrawerLayout;
 import android.view.View;
 
-import com.wegrzyn.android.appmaterials.coordinator.CoordinatorActivity;
+import com.wegrzyn.android.appmaterials.coordinators.my.CoordinatorMyActivity;
+import com.wegrzyn.android.appmaterials.coordinators.tutorial.CoordinatorActivity;
 
 public class MainActivity extends FragmentActivity {
 
@@ -89,6 +90,9 @@ public class MainActivity extends FragmentActivity {
         // Handle your other action bar items...
         if (item.getItemId() == R.id.main_coordinator_layout) {
             Intent intent = new Intent(this, CoordinatorActivity.class);
+            startActivity(intent);
+        } else  if (item.getItemId() == R.id.coordinator_my) {
+            Intent intent = new Intent(this, CoordinatorMyActivity.class);
             startActivity(intent);
         }
         return super.onOptionsItemSelected(item);

@@ -8,8 +8,8 @@
         android:icon="@drawable/ic_drawer"
         app:showAsAction="withText|ifRoom" />
     <item
-        android:id="@+id/option2"
-        android:title="option2"
+        android:id="@+id/coordinator_my"
+        android:title="MyCoordinator"
         android:icon="@drawable/ic_drawer"
         app:showAsAction="withText|ifRoom" />
 </menu>
