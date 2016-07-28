@@ -27,7 +27,9 @@ public class MainActivity extends FragmentActivity {
         setContentView(R.layout.main);
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
+        mNavigationView = (NavigationView) findViewById(R.id.navigation);
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+
         mDrawerToggle = new ActionBarDrawerToggle(
                 this,                  /* host Activity */
                 mDrawerLayout,         /* DrawerLayout object */
@@ -52,9 +54,15 @@ public class MainActivity extends FragmentActivity {
 
         // Set the drawer toggle as the DrawerListener
         mDrawerLayout.setDrawerListener(mDrawerToggle);
+        mNavigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(MenuItem menuItem) {
+                return MainActivity.this.onOptionsItemSelected(menuItem);
+            }
+        });
 
-//        getActionBar().setDisplayHomeAsUpEnabled(true);
-//        getActionBar().setHomeButtonEnabled(true);
+//        R.styleable.CoordinatorLayout;
+
     }
 
     @Override

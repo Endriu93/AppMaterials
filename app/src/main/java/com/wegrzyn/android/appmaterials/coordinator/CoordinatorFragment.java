@@ -22,12 +22,12 @@ public class CoordinatorFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        getView().findViewById(R.id.fab).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Hello Snackbar", Snackbar.LENGTH_LONG).show();
-            }
-        });
+//        getView().findViewById(R.id.fab).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Snackbar.make(view, "Hello Snackbar", Snackbar.LENGTH_LONG).show();
+//            }
+//        });
 
 
     }

@@ -2,7 +2,8 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="MainTheme" parent="Theme.AppCompat.Light">
-    </style>
+    <!--<style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--<item name="colorPrimary">@color/primary_color</item>-->
+    <!--</style>-->
 
 </resources>
